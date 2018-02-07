@@ -7,8 +7,8 @@ Inspired by [Composing Software: An Introduction](https://medium.com/javascript-
 
 ## Basic Usage
 
-    `Bean.roast` returns a function that is used as a factory of Javascript objects.
-    It takes as first parameter an optinal constructor and a series of object that will be composed into the final prototype and descriptors.
+`Bean.roast` returns a function that is used as a factory of Javascript objects.
+It takes as first parameter an optinal constructor and a series of object that will be composed into the final prototype and descriptors.
 
     const Bean = require('bean')
     
