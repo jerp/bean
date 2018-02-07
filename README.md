@@ -1,6 +1,7 @@
 # Bean
-[![Build Status](https://travis-ci.org/jerp/bean.svg?branch=master)](https://travis-ci.org/jerp/bean)
+[![Build Status][travis-image]][travis-url]
 [![NPM version][npm-image]][npm-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
 
 Javascript Object composition, inheritance and private state
 
@@ -61,5 +62,9 @@ In a console:
     daffyDuck.fly()
     > 'flap, flap ...'
 
+[travis-url]: https://travis-ci.org/jerp/bean
+[travis-image]: https://travis-ci.org/jerp/bean.svg?branch=master
 [npm-image]: https://img.shields.io/npm/v/jsbean.svg
 [npm-url]: https://www.npmjs.com/package/jsbean
+[coveralls-url]: https://coveralls.io/github/yargs/yargs
+[coveralls-image]: https://img.shields.io/coveralls/yargs/yargs.svg
