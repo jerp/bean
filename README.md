@@ -1,5 +1,6 @@
 # Bean
 [![Build Status](https://travis-ci.org/jerp/bean.svg?branch=master)](https://travis-ci.org/jerp/bean)
+[![NPM version][npm-image]][npm-url]
 
 Javascript Object composition, inheritance and private state
 
@@ -59,3 +60,6 @@ In a console:
     > Duck { name: 'Daffy Duck', specie: 'bird' }
     daffyDuck.fly()
     > 'flap, flap ...'
+
+[npm-image]: https://img.shields.io/npm/v/jsbean.svg
+[npm-url]: https://www.npmjs.com/package/jsbean
