@@ -66,5 +66,5 @@ In a console:
 [travis-image]: https://travis-ci.org/jerp/bean.svg?branch=master
 [npm-image]: https://img.shields.io/npm/v/jsbean.svg
 [npm-url]: https://www.npmjs.com/package/jsbean
-[coveralls-url]: https://coveralls.io/github/yargs/yargs
-[coveralls-image]: https://img.shields.io/coveralls/yargs/yargs.svg
+[coveralls-url]: https://coveralls.io/github/jerp/bean?branch=master
+[coveralls-image]: https://coveralls.io/repos/github/jerp/bean/badge.svg?branch=master
