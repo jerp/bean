@@ -66,7 +66,7 @@ In a console:
 
 `Bean.wrap` is a function, enabled by module `wrap-bean`, that wraps a context arround bean creation.
 
-```Javascript
+```javascript
     const Bean = require('../src/bean')
     require('bean/wrap-bean') // enable Bean.wrap function
     module.exports = Bean.wrap(() => {
