@@ -56,22 +56,6 @@ function roastBean(constructor) {
   });
   return brewer;
 }
-// wrap bean roasting allowing private state
-function wrapBean(wrapper, seed) {
-  var wm = new WeakMap();
-  if (seed == null) {
-    seed = Object.create.bind(undefined, null);
-  }
-  return wrapper(function(me) {
-    if (wm.has(me)) {
-      return wm.get(me);
-    } else {
-      var ctx = seed();
-      wm.set(me, ctx);
-      return ctx;
-    }
-  });
-}
 function createPublic(prototype, properties) {
   return Object.assign(Object.create(prototype), properties)
 }
@@ -80,7 +64,6 @@ function createProtected(prototype, properties) {
 }
 module.exports = {
   roast: roastBean,
-  wrap: wrapBean,
   public: createPublic,
   protected: createProtected,
 }

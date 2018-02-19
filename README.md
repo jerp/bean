@@ -62,6 +62,14 @@ In a console:
     daffyDuck.fly()
     > 'flap, flap ...'
 
+## Private State
+
+`Bean.wrap` is a function, enabled by module `wrap-bean`, that wraps a context arround bean creation.
+
+    require('bean/wrap-bean') // enable Bean.wrap function
+
+Check `test/wrap-bean.js` for basice examples
+
 [travis-url]: https://travis-ci.org/jerp/bean
 [travis-image]: https://travis-ci.org/jerp/bean.svg?branch=master
 [npm-image]: https://img.shields.io/npm/v/jsbean.svg
