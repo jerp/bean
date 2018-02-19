@@ -112,7 +112,7 @@ In a console:
     })
 ```
 
-Check `test/wrap-bean.js` for more examples
+Check [test/wrap-bean.js](test/wrap-bean.js) for more examples
 
 [travis-url]: https://travis-ci.org/jerp/bean
 [travis-image]: https://travis-ci.org/jerp/bean.svg?branch=master
